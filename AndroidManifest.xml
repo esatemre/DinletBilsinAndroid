@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest android:versionCode="1" android:versionName="1.0"
+    package="com.ytu.android.dinletbilsin" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="19"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <application android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" android:theme="@style/Theme.Sherlock">
+        <activity android:label="@string/app_name" android:name="com.ytu.android.dinletbilsin.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_run" android:name="com.ytu.android.dinletbilsin.RunActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.RUN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_settings" android:name="com.ytu.android.dinletbilsin.SettingsActivity"/>
+        <activity android:label="@string/title_activity_about" android:name="com.ytu.android.dinletbilsin.AboutActivity"/>
+        <activity android:label="@string/title_activity_past" android:name="com.ytu.android.dinletbilsin.PastActivity"/>
+        <activity android:label="@string/title_activity_result" android:name="com.ytu.android.dinletbilsin.ResultActivity"/>
+        <activity android:name="com.ytu.android.dinletbilsin.MagicAppRestart"/>
+    </application>
+</manifest>

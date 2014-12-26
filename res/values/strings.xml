@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dinlet Bilsin</string>
+    <string name="action_settings">Preference</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_run">Dinlet Bilsin</string>
+    <string name="title_activity_settings">Preference</string>
+    <string name="loading_1">Listening&#8230;</string>
+    <string name="loading_2">Scanning&#8230;</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_past">History</string>
+    <string name="title_activity_result">Result</string>
+    <string name="try_again">Try Again</string>
+    <string name="add_to_history">Add to History</string>
+    <string name="artist">Artist</string>
+    <string name="track">Track</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exit">Exit</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="connection_error">Connection Error</string>
+    <string name="please_connect_your_phone_to_wifi_or_3g">Please Connect Your Phone To Wifi or 3G</string>
+    <string name="welcome_to_dinlet_bilsin">Welcome to Dinlet Bilsin!</string>
+    <string name="back">Back</string>
+    
+</resources>

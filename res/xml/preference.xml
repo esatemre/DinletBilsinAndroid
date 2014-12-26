@@ -1,0 +1,52 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.ytu.android.dinletbilsin.SeekBarPreference
+        android:defaultValue="10"
+        android:dialogMessage=""
+        android:key="history_number"
+        android:max="40"
+        android:summary="@string/history_number"
+        android:text=""
+        android:title="@string/history_number" />
+
+    <ListPreference
+        android:defaultValue="en"
+        android:entries="@array/languages"
+        android:entryValues="@array/language_codes"
+        android:key="language"
+        android:title="@string/choose_language" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="auto_history"
+        android:summary="@string/songs_automatically_add_to_history"
+        android:title="@string/automatic_adding_to_history" />
+
+    <ListPreference
+        android:defaultValue="12"
+        android:entries="@array/record_time_str"
+        android:entryValues="@array/record_time_str"
+        android:key="record_timer"
+        android:title="@string/time_of_record" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:dependency="skip_record_for_test"
+        android:disableDependentsState="true"
+        android:key="just_record_save"
+        android:summary="@string/only_recording_and_save_audio"
+        android:title="@string/record_and_save" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:dependency="just_record_save"
+        android:key="check_internet"
+        android:summary="@string/if_checked_you_can_not_start_recording_without_internet"
+        android:title="@string/check_internet_connection" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:disableDependentsState="true"
+        android:key="skip_record_for_test"
+        android:summary="@string/no_record_no_scan"
+        android:title="@string/skip_recording_for_test" />
+
+</PreferenceScreen>

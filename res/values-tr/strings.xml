@@ -1,0 +1,72 @@
+<resources>
+
+    <string name="action_settings">Ayarlar</string>
+    <string name="add_to_history">Geçmişe Ekle</string>
+    <string name="app_name">Dinlet Bilsin</string>
+    <string name="are_you_sure">Emin Misiniz?</string>
+    <string name="artist">Artist</string>
+    <string name="automatic_adding_to_history">Geçmişe Otomatik Ekleme</string>
+    <string name="check_internet_connection">Internet Bağlantısını Kontrol Et</string>
+    <string name="connection_error">Bağlantı Hatası</string>
+    <string name="delete">Sil</string>
+    <string name="exit">Çıkış</string>
+    <string name="hello_world">Merhaba Dünya!</string>
+    <string name="history_number">Geçmiş Kayıt Sayısı</string>
+    <string name="if_checked_you_can_not_start_recording_without_internet">Eğer işaretliyse, Internet bağlantısı olmadan kayıt başlayamaz</string>
+    <string name="loading_1">Dinleniliyor&#8230;</string>
+    <string name="loading_2">Taranıyor&#8230;</string>
+    <string name="no">Hayır</string>
+    <string name="no_record_no_scan">Kayıt Yok, Tarama Yok</string>
+    <string name="only_recording_and_save_audio">Sadece dinle ve kayıt et ama tarama yok</string>
+    <string name="please_connect_your_phone_to_wifi_or_3g">Lütfen Telefonunuzu Wifi ya da 3G Ağına Bağlayınız</string>
+    <string name="record_and_save">Dinlet ve Kaydet</string>
+    <string name="share">Paylaş</string>
+    <string name="skip_recording_for_test">Test için Kaydetmeyi Atla</string>
+    <string name="songs_automatically_add_to_history">Bulunan şarkılar geçmişe otomatik olarak eklenecektir</string>
+    <string name="title_activity_about">Hakkında</string>
+    <string name="title_activity_past">Geçmiş</string>
+    <string name="title_activity_result">Sonuç</string>
+    <string name="title_activity_run">Dinlet Bilsin</string>
+    <string name="title_activity_settings">Ayarlar</string>
+    <string name="track">Parça</string>
+    <string name="try_again">Tekrar Deneyiniz</string>
+    <string name="vibration_time">Titreşim Süresi</string>
+    <string name="yes">Evet</string>
+    <string name="back">Geri</string>
+    <string name="welcome_to_dinlet_bilsin">Dinlet Bilsin\'e Hoşgeldiniz!</string>
+    <string name="choose_language">Dil Seçimi</string>
+    <string name="clean">Temizle</string>
+	<string name="time_of_record">Dinleme Süresi</string>
+
+    <string-array name="languages">
+        <item>İngilizce</item>
+        <item>Türkçe</item>
+        <item>Almanca</item>
+        <item>Fransızca</item>
+        <item>İspayolca</item>
+    </string-array>
+    <string-array name="language_codes">
+        <item>en</item>
+        <item>tr</item>
+        <item>de</item>
+        <item>fr</item>
+        <item>es</item>
+    </string-array>
+
+    <integer-array name="record_time">
+        <item>6</item>
+        <item>12</item>
+        <item>18</item>
+        <item>24</item>
+        <item>30</item>
+    </integer-array>
+    
+    <string-array name="record_time_str">
+        <item>6</item>
+        <item>12</item>
+        <item>18</item>
+        <item>24</item>
+        <item>30</item>
+    </string-array>
+
+</resources>
